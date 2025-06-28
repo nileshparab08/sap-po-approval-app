@@ -1,0 +1,12 @@
+<mvc:View
+  controllerName="demo.controller.App"
+  xmlns:mvc="sap.ui.core.mvc"
+  xmlns="sap.m">
+  <Page title="Purchase Order Approval">
+    <content>
+      <List id="poList" items="{/PurchaseOrders}">
+        <StandardListItem title="{PO_ID}" description="{Status}" />
+      </List>
+    </content>
+  </Page>
+</mvc:View>
