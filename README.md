@@ -1,21 +1,24 @@
-# SAP UI5 Demo App – Purchase Order Approval
+# SAP UI5 Demo – Purchase Order Approval
 
-This is a basic SAP UI5 demo application to showcase a simple Purchase Order approval list using mock data.
+This is a personal demo app I built in 2025 to refresh my SAP UI5/Fiori development skills.
 
-## 🔧 Technologies Used
-- SAP UI5 (OpenUI5)
-- JavaScript, XML
-- JSONModel
-- Fiori Design principles
+It shows a list of mock Purchase Orders with fields like PO_ID, Vendor, Status, and Amount.  
+I created it as a learning project while preparing to re-enter the SAP domain after working in logistics in Germany and Poland.
 
-## 🚀 How to Run
-1. Clone the repo or download the ZIP
-2. Open `index.html` in a browser
-3. You will see a list of Purchase Orders with status
+## Features
+- JSONModel with hardcoded PO data
+- List display with vendor + amount
+- Responsive layout using Fiori components
 
-## 📁 Folder Structure
-- `webapp/view/App.view.xml` – XML view for PO list
-- `webapp/controller/App.controller.js` – Controller with mock data
-- `manifest.json`, `Component.js` – UI5 configuration
+## Future Improvements
+- Add filtering or search
+- Connect to real OData or CAP service
+- Add object page navigation
 
-Built by Nilesh Parab – SAP Fiori Developer
+## Technologies Used
+SAP UI5, XML View, JSONModel, JavaScript
+
+---
+
+Built by Nilesh Parab – SAP Fiori Developer  
+Location: Bavaria, Germany  
