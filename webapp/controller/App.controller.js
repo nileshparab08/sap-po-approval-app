@@ -3,6 +3,10 @@ sap.ui.define([
   "sap/ui/model/json/JSONModel"
 ], function(Controller, JSONModel) {
   "use strict";
+  
+// This controller initializes mock data for the PO list
+// TODO: In future, connect this to live OData service
+// PO_ID and Status are hardcoded here for demo purpose
 
   return Controller.extend("demo.controller.App", {
     onInit: function() {
