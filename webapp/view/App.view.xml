@@ -5,7 +5,13 @@
   <Page title="Purchase Order Approval">
     <content>
       <List id="poList" items="{/PurchaseOrders}">
-        <StandardListItem title="{PO_ID}" description="{Status}" />
+        <StandardListItem
+          title="{PO_ID}"
+          description="{Vendor} - {Status}"
+          info="{Amount}"
+          infoState="Success"
+        />
+
       </List>
     </content>
   </Page>
