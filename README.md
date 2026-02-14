@@ -80,14 +80,11 @@ This project is structured to reflect:
 
 ## 6. Screenshots
 
-(Add screenshots below)
+![Launchpad](screenshots/launchpad.png)
+![List Report](screenshots/list-report.png)
+![Object Page](screenshots/object-page.png)
+![Value Help](screenshots/value-help.png)
 
----
-
-## 7. Repository Activity
-
-This repository is actively maintained and continuously improved
-to align with modern SAP S/4HANA Fiori development standards.
 
 ---
 
